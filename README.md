@@ -9,3 +9,7 @@ This project is built with Laravel framework. To run the server using php artisa
 
 ## How to access the API
 Once the server is running, you can access the API by sending a GET request to http://127.0.0.1:8000/api/calculate-commission with the following parameters in the query string:
+
+## Run the feature test
+
+php artisan test --testsuite=Feature
